@@ -100,6 +100,10 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+
+    p, li {
+      font-size: 0.8em;
+    }
 }
 
 .footer-heading {
@@ -239,4 +243,9 @@
             font-size: 18px;
         }
     }
+}
+
+.center-image {
+    margin: 0 auto;
+    display: block;
 }

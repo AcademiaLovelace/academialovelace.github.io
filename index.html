@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <img src="{{ "/assets/logo.png" | prepend: site.baseurl }}" class="center-image" />
+
+  <h1 class="page-heading">Posts mais recentes</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
